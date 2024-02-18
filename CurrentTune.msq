@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <msq xmlns="http://www.msefi.com/:msq">
-<bibliography author="TunerStudio MS Ultra 3.1.08 - EFI Analytics, Inc." tuneComment="Boost:&#10;-Boost threshold is 4500 rpm&#10;-Duty cycles on 6 psi spring&#10;&#9;-20 = 8-9 psi" writeDate="Sat Feb 17 21:30:58 PST 2024"/>
+<bibliography author="TunerStudio MS Ultra 3.1.08 - EFI Analytics, Inc." tuneComment="Boost:&#10;-Boost threshold is 4500 rpm&#10;-Duty cycles on 6 psi spring&#10;&#9;-20 = 8-9 psi" writeDate="Sun Feb 18 00:04:59 PST 2024"/>
 <versionInfo fileFormat="5.0" firmwareInfo="Speeduino+2023.10" nPages="15" signature="speeduino 202310"/>
 <page>
 <pcVariable name="tsCanId">"0"</pcVariable>
@@ -497,7 +497,7 @@
 <constant digits="0" name="maeMinChange" units="kPa">2.0</constant>
 <constant name="displayB1">"RPM"</constant>
 <constant name="displayB2">"RPM"</constant>
-<constant digits="1" name="reqFuel" units="ms">3.3</constant>
+<constant digits="1" name="reqFuel" units="ms">2.6</constant>
 <constant digits="0" name="divider">2.0</constant>
 <constant name="alternate">"Alternating"</constant>
 <constant name="crkngAddCLTAdv">"No"</constant>
@@ -561,7 +561,7 @@
 <constant name="incorporateAFR">"No"</constant>
 <constant cols="1" digits="0" name="asePct" rows="4" units="%">
          40.0 
-         35.0 
+         25.0 
          20.0 
          30.0 
       </constant>
@@ -635,27 +635,27 @@
 </page>
 <page number="1" size="288">
 <constant cols="16" digits="0" name="veTable" rows="16" units="%">
-         46.0 46.0 46.0 46.0 46.0 46.0 46.0 46.0 49.0 50.0 52.0 52.0 52.0 52.0 52.0 52.0 
-         46.0 46.0 46.0 46.0 46.0 46.0 46.0 46.0 49.0 50.0 52.0 52.0 55.0 58.0 61.0 62.0 
-         46.0 46.0 46.0 55.0 58.0 61.0 55.0 61.0 53.0 59.0 62.0 62.0 64.0 65.0 68.0 71.0 
-         46.0 46.0 46.0 65.0 61.0 61.0 58.0 64.0 67.0 71.0 75.0 81.0 81.0 86.0 87.0 90.0 
-         64.0 65.0 71.0 68.0 65.0 73.0 75.0 71.0 77.0 92.0 92.0 92.0 95.0 95.0 95.0 95.0 
-         71.0 71.0 96.0 81.0 74.0 80.0 81.0 75.0 92.0 101.0 107.0 108.0 114.0 114.0 114.0 114.0 
-         81.0 87.0 101.0 81.0 81.0 86.0 87.0 92.0 108.0 115.0 118.0 118.0 118.0 123.0 127.0 129.0 
-         98.0 98.0 105.0 120.0 108.0 104.0 105.0 114.0 117.0 114.0 123.0 129.0 126.0 130.0 132.0 136.0 
-         101.0 102.0 108.0 117.0 108.0 111.0 112.0 120.0 123.0 127.0 144.0 147.0 138.0 138.0 139.0 151.0 
-         110.0 110.0 110.0 110.0 112.0 117.0 124.0 133.0 141.0 141.0 151.0 149.0 149.0 154.0 149.0 152.0 
-         112.0 112.0 112.0 112.0 123.0 129.0 132.0 159.0 159.0 159.0 159.0 159.0 159.0 159.0 159.0 159.0 
-         120.0 120.0 120.0 120.0 129.0 135.0 138.0 155.0 157.0 160.0 163.0 165.0 165.0 165.0 165.0 165.0 
-         136.0 136.0 136.0 144.0 149.0 152.0 157.0 170.0 170.0 176.0 176.0 176.0 176.0 176.0 176.0 176.0 
-         149.0 149.0 155.0 166.0 172.0 181.0 191.0 191.0 191.0 191.0 191.0 191.0 191.0 191.0 191.0 191.0 
-         157.0 157.0 170.0 182.0 189.0 191.0 203.0 203.0 203.0 203.0 203.0 203.0 203.0 203.0 203.0 203.0 
-         167.0 167.0 181.0 200.0 207.0 209.0 213.0 213.0 213.0 213.0 213.0 213.0 213.0 213.0 213.0 213.0 
+         60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 61.0 61.0 61.0 61.0 61.0 61.0 
+         60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 60.0 61.0 61.0 65.0 68.0 70.0 73.0 
+         60.0 60.0 60.0 66.0 67.0 68.0 66.0 67.0 61.0 69.0 73.0 73.0 74.0 77.0 80.0 82.0 
+         60.0 60.0 60.0 68.0 77.0 80.0 73.0 69.0 75.0 82.0 88.0 95.0 95.0 100.0 103.0 105.0 
+         74.0 76.0 82.0 75.0 91.0 96.0 87.0 82.0 90.0 107.0 104.0 107.0 111.0 111.0 111.0 111.0 
+         84.0 84.0 109.0 97.0 99.0 103.0 101.0 89.0 108.0 117.0 124.0 126.0 134.0 134.0 134.0 134.0 
+         95.0 101.0 119.0 111.0 105.0 109.0 106.0 109.0 127.0 135.0 139.0 139.0 139.0 144.0 149.0 151.0 
+         115.0 115.0 124.0 135.0 114.0 114.0 128.0 134.0 132.0 133.0 142.0 151.0 147.0 153.0 154.0 159.0 
+         117.0 117.0 117.0 130.0 119.0 123.0 135.0 139.0 145.0 149.0 166.0 171.0 161.0 161.0 163.0 177.0 
+         128.0 128.0 128.0 128.0 132.0 140.0 147.0 156.0 168.0 167.0 175.0 171.0 174.0 180.0 174.0 178.0 
+         132.0 132.0 132.0 132.0 143.0 150.0 156.0 168.0 174.0 177.0 184.0 180.0 180.0 176.0 172.0 181.0 
+         140.0 140.0 140.0 140.0 150.0 158.0 162.0 175.0 179.0 185.0 192.0 189.0 185.0 184.0 182.0 181.0 
+         159.0 159.0 159.0 167.0 176.0 178.0 183.0 190.0 200.0 207.0 207.0 201.0 200.0 199.0 201.0 199.0 
+         176.0 176.0 181.0 194.0 201.0 211.0 213.0 220.0 225.0 236.0 236.0 236.0 236.0 236.0 236.0 236.0 
+         184.0 184.0 198.0 213.0 221.0 224.0 227.0 239.0 240.0 252.0 252.0 252.0 252.0 252.0 252.0 252.0 
+         196.0 196.0 212.0 234.0 242.0 244.0 248.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 255.0 
       </constant>
 <constant cols="1" digits="0" name="rpmBins" rows="16" units="RPM">
          500.0 
          700.0 
-         900.0 
+         1000.0 
          1500.0 
          2000.0 
          3000.0 
@@ -786,10 +786,10 @@
          900.0 
       </constant>
 <constant cols="1" digits="0" name="taeRates" rows="4" units="%">
-         18.0 
-         74.0 
-         111.0 
-         207.0 
+         16.0 
+         68.0 
+         101.0 
+         189.0 
       </constant>
 <constant cols="1" digits="0" name="wueBins" rows="10" units="F">
          30.186 
@@ -815,18 +815,18 @@
 <constant cols="1" digits="0" name="iatRetBins" rows="6" units="F">
          31.986 
          67.986 
-         102.186 
-         103.986 
+         109.386 
+         111.186 
          139.986 
-         211.986 
+         170.586 
       </constant>
 <constant cols="1" digits="0" name="iatRetRates" rows="6" units="deg">
          0.0 
          0.0 
          0.0 
          1.0 
-         2.0 
-         4.0 
+         3.0 
+         5.0 
       </constant>
 <constant digits="0" name="dfcoRPM" units="RPM">2000.0</constant>
 <constant digits="0" name="dfcoHyster" units="RPM">150.0</constant>
@@ -845,9 +845,9 @@
          49.986 
          85.986 
          112.986 
+         201.186 
          202.986 
          204.786 
-         206.586 
       </constant>
 <constant cols="1" digits="0" name="cltAdvValues" rows="6" units="deg">
          0.0 
@@ -1066,10 +1066,10 @@
 <constant name="launchPin">"Board Default"</constant>
 <constant name="launchEnable">"No"</constant>
 <constant name="launchHiLo">"LOW"</constant>
-<constant digits="0" name="lnchSoftLim" units="rpm">2500.0</constant>
-<constant digits="0" name="lnchRetard" units="deg">5.0</constant>
-<constant digits="0" name="lnchHardLim" units="rpm">2700.0</constant>
-<constant digits="0" name="lnchFuelAdd" units="%">15.0</constant>
+<constant digits="0" name="lnchSoftLim" units="rpm">3500.0</constant>
+<constant digits="0" name="lnchRetard" units="deg">10.0</constant>
+<constant digits="0" name="lnchHardLim" units="rpm">4000.0</constant>
+<constant digits="0" name="lnchFuelAdd" units="%">10.0</constant>
 <constant digits="2" name="idleKP" units="%">0.25</constant>
 <constant digits="2" name="idleKI" units="%">0.0625</constant>
 <constant digits="3" name="idleKD" units="%">0.0</constant>
@@ -1082,8 +1082,8 @@
 <constant name="fuelTrimEnabled">"No"</constant>
 <constant name="flatSEnable">"No"</constant>
 <constant name="baroPin">"A12"</constant>
-<constant digits="0" name="flatSSoftWin" units="rpm">4500.0</constant>
-<constant digits="0" name="flatSRetard" units="deg">30.0</constant>
+<constant digits="0" name="flatSSoftWin" units="rpm">1000.0</constant>
+<constant digits="0" name="flatSRetard" units="deg">6.0</constant>
 <constant digits="0" name="flatSArm" units="rpm">4000.0</constant>
 <constant cols="1" digits="0" name="iacCLValues" rows="10" units="RPM">
          1400.0 
@@ -1161,8 +1161,8 @@
 <constant name="fanInv">"No"</constant>
 <constant name="fanUnused">"Off"</constant>
 <constant name="fanPin">"Board Default"</constant>
-<constant digits="0" name="fanSP" units="F">193.986</constant>
-<constant digits="0" name="fanHyster" units="F">8.0</constant>
+<constant digits="0" name="fanSP" units="F">197.586</constant>
+<constant digits="0" name="fanHyster" units="F">6.0</constant>
 <constant digits="0" name="fanFreq" units="Hz">0.0</constant>
 <constant cols="1" digits="0" name="fanPWMBins" rows="4" units="F">
          -40.014 
@@ -1173,14 +1173,14 @@
 </page>
 <page number="6" size="240">
 <constant cols="8" digits="0" name="boostTable" rows="8" units="Duty Cycle %">
-         0.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         100.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         100.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         100.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         100.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         100.0 0.0 0.0 0.0 0.0 0.0 0.0 0.0 
-         100.0 16.0 14.0 24.0 24.0 24.0 24.0 24.0 
-         100.0 16.0 14.0 24.0 24.0 24.0 24.0 24.0 
+         100.0 100.0 100.0 100.0 100.0 100.0 100.0 100.0 
+         100.0 24.0 24.0 24.0 24.0 24.0 24.0 24.0 
+         100.0 16.0 14.0 24.0 24.0 22.0 22.0 22.0 
+         100.0 16.0 14.0 24.0 24.0 22.0 22.0 22.0 
+         100.0 16.0 14.0 24.0 24.0 22.0 22.0 22.0 
+         100.0 16.0 14.0 24.0 24.0 22.0 22.0 22.0 
+         100.0 16.0 14.0 24.0 24.0 22.0 22.0 22.0 
+         100.0 16.0 14.0 24.0 24.0 22.0 22.0 22.0 
       </constant>
 <constant cols="1" digits="0" name="rpmBinsBoost" rows="8" units="RPM">
          4000.0 
@@ -1729,7 +1729,7 @@
       </constant>
 <constant cols="1" digits="0" name="crankingEnrichValues" rows="4" units="%">
          350.0 
-         305.0 
+         315.0 
          175.0 
          110.0 
       </constant>
@@ -1761,14 +1761,14 @@
 <constant digits="0" name="boostIntv" units="ms">15.0</constant>
 <constant digits="0" name="stagedInjSizePri" units="cc/min">300.0</constant>
 <constant digits="0" name="stagedInjSizeSec" units="cc/min">700.0</constant>
-<constant digits="1" name="lnchCtrlTPS" units="%TPS">40.0</constant>
+<constant digits="1" name="lnchCtrlTPS" units="%TPS">80.0</constant>
 <constant cols="1" digits="0" name="flexBoostBins" rows="6" units="%">
          0.0 
+         20.0 
+         40.0 
          60.0 
-         65.0 
-         74.0 
-         75.0 
-         85.0 
+         80.0 
+         100.0 
       </constant>
 <constant cols="1" digits="0" name="flexBoostAdj" rows="6" units="kPa">
          0.0 
@@ -1787,20 +1787,20 @@
          85.0 
       </constant>
 <constant cols="1" digits="0" name="flexFuelBias" rows="6" units="%">
-         100.0 
-         88.0 
-         76.0 
-         52.0 
-         28.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
+         0.0 
          0.0 
       </constant>
 <constant cols="1" digits="0" name="flexAdvBins" rows="6" units="%">
          0.0 
+         20.0 
+         40.0 
          60.0 
-         65.0 
-         74.0 
-         75.0 
-         85.0 
+         80.0 
+         100.0 
       </constant>
 <constant cols="1" digits="0" name="flexAdvBias" rows="6" units="%">
          0.0 
@@ -1874,7 +1874,7 @@
 <constant digits="1" name="knock_recoveryStepTime" units="Sec">0.0</constant>
 <constant digits="0" name="knock_recoveryStep" units="Deg">0.0</constant>
 <constant name="fuel2Algorithm">"MAP"</constant>
-<constant name="fuel2Mode">"Flex Blend"</constant>
+<constant name="fuel2Mode">"Off"</constant>
 <constant name="fuel2SwitchVariable">"ETH%"</constant>
 <constant digits="0" name="fuel2SwitchValue" units="%">60.0</constant>
 <constant name="fuel2InputPin">"25"</constant>
@@ -1976,27 +1976,27 @@
 </page>
 <page number="10" size="288">
 <constant cols="16" digits="0" name="veTable2" rows="16" units="%">
-         31.0 31.0 31.0 31.0 31.0 31.0 31.0 31.0 33.0 34.0 35.0 35.0 35.0 35.0 35.0 35.0 
-         31.0 31.0 31.0 31.0 31.0 31.0 31.0 31.0 33.0 34.0 35.0 35.0 37.0 39.0 41.0 42.0 
-         31.0 31.0 31.0 37.0 39.0 41.0 37.0 41.0 36.0 40.0 42.0 42.0 43.0 44.0 46.0 48.0 
-         31.0 31.0 31.0 44.0 41.0 41.0 39.0 43.0 45.0 48.0 51.0 55.0 55.0 58.0 59.0 61.0 
-         43.0 44.0 48.0 46.0 44.0 49.0 51.0 48.0 52.0 62.0 62.0 62.0 64.0 64.0 64.0 64.0 
-         48.0 48.0 65.0 55.0 50.0 54.0 55.0 51.0 62.0 68.0 72.0 73.0 77.0 77.0 77.0 77.0 
-         55.0 59.0 68.0 55.0 55.0 58.0 59.0 62.0 73.0 78.0 80.0 80.0 80.0 83.0 86.0 87.0 
-         66.0 66.0 71.0 81.0 73.0 70.0 71.0 77.0 79.0 77.0 83.0 87.0 85.0 88.0 89.0 92.0 
-         68.0 69.0 73.0 79.0 73.0 75.0 76.0 81.0 83.0 86.0 97.0 99.0 93.0 93.0 94.0 102.0 
-         74.0 74.0 74.0 74.0 76.0 79.0 84.0 90.0 95.0 95.0 102.0 101.0 101.0 104.0 101.0 103.0 
-         76.0 76.0 76.0 76.0 83.0 87.0 89.0 95.0 100.0 102.0 106.0 105.0 104.0 102.0 100.0 105.0 
-         81.0 81.0 81.0 81.0 87.0 91.0 93.0 100.0 103.0 105.0 110.0 107.0 105.0 105.0 103.0 105.0 
-         92.0 92.0 92.0 97.0 101.0 103.0 106.0 110.0 115.0 119.0 119.0 115.0 115.0 112.0 111.0 113.0 
-         101.0 101.0 105.0 112.0 116.0 122.0 129.0 129.0 129.0 129.0 129.0 129.0 129.0 129.0 129.0 129.0 
-         106.0 106.0 115.0 123.0 128.0 129.0 137.0 137.0 137.0 137.0 137.0 137.0 137.0 137.0 137.0 137.0 
-         113.0 113.0 122.0 135.0 140.0 141.0 144.0 144.0 144.0 144.0 144.0 144.0 144.0 144.0 144.0 144.0 
+         61.0 61.0 61.0 61.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 
+         58.0 61.0 61.0 61.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 
+         58.0 61.0 61.0 61.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 
+         58.0 61.0 61.0 61.0 41.0 42.0 43.0 47.0 50.0 54.0 54.0 54.0 54.0 54.0 54.0 54.0 
+         61.0 61.0 61.0 61.0 43.0 46.0 49.0 53.0 54.0 57.0 54.0 54.0 54.0 54.0 54.0 54.0 
+         61.0 58.0 58.0 61.0 55.0 58.0 62.0 72.0 73.0 70.0 68.0 68.0 68.0 68.0 68.0 68.0 
+         61.0 61.0 64.0 64.0 63.0 63.0 70.0 77.0 80.0 76.0 76.0 73.0 73.0 73.0 73.0 73.0 
+         61.0 63.0 66.0 70.0 70.0 76.0 78.0 80.0 85.0 82.0 81.0 81.0 81.0 81.0 81.0 81.0 
+         80.0 70.0 68.0 70.0 82.0 84.0 86.0 88.0 92.0 86.0 90.0 88.0 88.0 88.0 88.0 88.0 
+         85.0 90.0 77.0 78.0 86.0 90.0 88.0 90.0 99.0 96.0 97.0 96.0 96.0 96.0 96.0 96.0 
+         90.0 90.0 90.0 88.0 93.0 101.0 101.0 103.0 108.0 104.0 103.0 103.0 101.0 101.0 99.0 99.0 
+         90.0 94.0 98.0 96.0 111.0 113.0 113.0 120.0 127.0 122.0 120.0 115.0 108.0 104.0 103.0 103.0 
+         95.0 98.0 103.0 105.0 123.0 124.0 126.0 131.0 136.0 127.0 122.0 117.0 112.0 109.0 105.0 107.0 
+         95.0 99.0 105.0 111.0 132.0 131.0 131.0 143.0 143.0 128.0 123.0 123.0 116.0 115.0 109.0 109.0 
+         96.0 100.0 107.0 117.0 134.0 134.0 136.0 146.0 149.0 135.0 130.0 130.0 130.0 128.0 127.0 127.0 
+         96.0 100.0 108.0 120.0 136.0 138.0 140.0 149.0 150.0 135.0 132.0 130.0 127.0 126.0 126.0 126.0 
       </constant>
 <constant cols="1" digits="0" name="fuelRPM2Bins" rows="16" units="RPM">
          500.0 
          700.0 
-         1000.0 
+         900.0 
          1500.0 
          2000.0 
          3000.0 
@@ -2012,6 +2012,8 @@
          7000.0 
       </constant>
 <constant cols="1" digits="0" name="fuelLoad2Bins" rows="16" units="kPa">
+         10.0 
+         16.0 
          20.0 
          26.0 
          30.0 
@@ -2026,8 +2028,6 @@
          160.0 
          180.0 
          200.0 
-         220.0 
-         240.0 
       </constant>
 </page>
 <page number="11" size="192">
